@@ -1,0 +1,98 @@
+.mainContainer {
+    align-items: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.mainLogin {
+    background-color: #fffafa;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 35%;
+    border-radius: 80px;
+    box-shadow: 3px 4px 10px black;
+}
+
+.option {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.option h1 {
+    margin-left: 10px;
+}
+
+.option .first {
+    color: white;
+    background-color: #08368e;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.option .second {
+    cursor: pointer;
+}
+
+.mainFields {
+    width: 100%;
+    padding: 10px;
+}
+
+.conteudo {
+    width: 50%;
+
+}
+
+.cabecalho {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainLogin h1 {
+    color: #1f1f23;
+}
+
+label {
+    font-size: 20px;
+    color: #1f1f23;
+    font-weight: bold;
+}
+
+.mainFields input {
+    background-color: #5d5e5f62;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.subtittle {
+    color: #08368e;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn {
+    color: white;
+    width: 50%;
+    margin-top: 10px;
+    background-color: #08368e;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #1f1f23;
+}

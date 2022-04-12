@@ -1,0 +1,30 @@
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    margin-top: 40px;
+}
+
+.list li {
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+    margin-left: 30px;
+    transition: .3s;
+    padding: 10px;
+}
+
+.list li:hover {
+    font-size: 20px;
+    border-bottom: 2px solid #0ad4f3;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
