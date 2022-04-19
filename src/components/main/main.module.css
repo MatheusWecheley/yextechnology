@@ -1,0 +1,32 @@
+
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maplist {
+    display: flex;
+}
+
+.list {
+    margin-left: 30px;
+}
+
+.list span {
+    display: block;
+
+}
+
+.nameBarber {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 30px;
+    width: 287px;
+    height: 250px;
+}

@@ -3,13 +3,14 @@ import { useState, useContext } from 'react'
 import { useForm } from 'react-hook-form'
 import {AuthContext} from '../contexts/auth'
 import UserService from '../services/register'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
+import Header from '../header/header'
 
 
 
 
 
-function Main() {
+function Login() {
 
     const { authenticated, login} = useContext(AuthContext)
     const navigate = useNavigate()
@@ -28,13 +29,14 @@ function Main() {
 
     return (
         <div>
+            <Header/>
         <div className={style.cabecalho}><h1>Digite seu email e sua senha!</h1></div>
             <div className={style.mainContainer}>
                 <div className={style.mainLogin}>
                     <div className={style.conteudo}>
                         <div className={style.option}>
                         <h1 className={style.first}>LOGIN</h1>
-                        <h1 className={style.second}> Registro</h1>
+                        <h1 className={style.second}><Link to='/register'>Registro</Link></h1>
                         </div>
                         <div className={style.mainForm}>
                             <form onSubmit={handleSubmit}>
@@ -59,4 +61,4 @@ function Main() {
     )
 }
 
-export default Main;
+export default Login;
