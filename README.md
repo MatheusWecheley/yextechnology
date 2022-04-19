@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+<h1>Tela inicial</h1>
+<span>Sem o Back End</span>
+<img src='https://user-images.githubusercontent.com/100442318/164075137-3d90f264-f422-404a-a6dd-0665fd3011e4.png' width='500px'/>
+<span>Com o Back End</span>
+<img src='https://user-images.githubusercontent.com/100442318/164075243-ea2c13d5-a78b-4b54-8528-77f2f72aaa61.png' width='500px'/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Tela de Login</h1>
+<img src='https://user-images.githubusercontent.com/100442318/164075422-53d002c3-0653-472f-9f31-8d3445a5da28.png' width='500px'/>
+<h1>Tela de Registro</h1>
+<img src='https://user-images.githubusercontent.com/100442318/164075438-51dfabdb-8e17-468d-82ba-dc9b07a41503.png' width='500px'/>
+<h1>Tela do Admin</h1>
+<img src='https://user-images.githubusercontent.com/100442318/164075450-603a8a48-3f81-4b6c-81c9-6dda284d29ec.png' width='500px'/>
+
 
 ## Available Scripts
 
