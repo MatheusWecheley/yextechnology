@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className={style.headerContainer}>
             <div className={style.headerImg}>
-                <img src={Default} width="200px" height="200px" alt='Logo da Yex' />
+                <Link to='/'><img src={Default} width="200px" height="200px" alt='Logo da Yex'></img></Link>
             </div>
             <div className={style.headerMenu}>
                 <div className={style.headerSearch}>

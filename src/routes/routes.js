@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import Login from '../components/login/index'
+import LoginPage from '../components/pages/login/login'
 import HomePage from '../components/pages/home/homepage'
 import { AuthProvider, AuthContext } from '../components/contexts/auth'
 import React, { useContext } from 'react'
-import Register from '../components/register/register'
+import RegisterPage from '../components/pages/register/register'
 import Admin from '../components/admin/admin'
 
 const AppRoutes = () => {
@@ -26,9 +26,9 @@ const AppRoutes = () => {
         <Router>
             <AuthProvider>
                 <Routes>
-                    <Route exact path='/login' element={<Login />} />
+                    <Route exact path='/login' element={<LoginPage />} />
                     <Route exact path='/users/admin' element={<Admin />} />
-                    <Route exact path='/register' element={<Register />} />
+                    <Route exact path='/register' element={<RegisterPage />} />
                     <Route exact path='/' element={<HomePage />} />
                 </Routes>
             </AuthProvider>

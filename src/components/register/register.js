@@ -2,7 +2,7 @@ import style from './styleregister.module.css';
 import { useState, useContext } from 'react'
 import {AuthContext} from '../contexts/auth'
 import UserService from '../services/register'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 
 function Register() {
@@ -33,7 +33,7 @@ function Register() {
                 <div className={style.mainLogin}>
                     <div className={style.conteudo}>
                         <div className={style.option}>
-                        <h1 className={style.first}>LOGIN</h1>
+                        <h1 className={style.first}><Link to='/login'>LOGIN</Link> </h1>
                         <h1 className={style.second}> Registro</h1>
                         </div>
                         <div className={style.mainForm}>

@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form'
 import {AuthContext} from '../contexts/auth'
 import UserService from '../services/register'
 import { useNavigate, Link } from 'react-router-dom'
-import Header from '../header/header'
+
 
 
 
@@ -29,7 +29,6 @@ function Login() {
 
     return (
         <div>
-            <Header/>
         <div className={style.cabecalho}><h1>Digite seu email e sua senha!</h1></div>
             <div className={style.mainContainer}>
                 <div className={style.mainLogin}>

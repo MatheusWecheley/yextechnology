@@ -36,8 +36,9 @@ const Main = () => {
                 isLoading 
                 ?
                 <div className={style.barbers}>
-                    <h1>Barbeiros</h1>
+                    <h1>Recomendados</h1>
                     <div className={style.maplist}>
+                    <CardSkeleton/>
                     <CardSkeleton/>
                     <CardSkeleton/>
                     <CardSkeleton/>
@@ -45,7 +46,7 @@ const Main = () => {
                 </div>
             :
             <div className={style.barbers}>
-                <h1>Barbeiros</h1>
+                <h1>Recomendados</h1>
                 <div className={style.maplist}>
                 {data.map(image =>(
                     <div className={style.list} key={image.barber}>
